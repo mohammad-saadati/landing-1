@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="relative">
       {/* Language Detection Display */}
-      <div className="absolute top-4 right-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 max-w-sm z-50">
+      {/* <div className="absolute top-4 right-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 max-w-sm z-50">
         <h3 className="font-semibold text-sm text-gray-700 dark:text-gray-200 mb-2">
           🌍 Language Detection
         </h3>
@@ -44,7 +44,7 @@ export default function Home() {
         ) : (
           <p className="text-xs text-red-500">Detection failed</p>
         )}
-      </div>
+      </div> */}
 
       {/* LiveKit Connector - automatically generates token and connects */}
       <LiveKitConnector 
